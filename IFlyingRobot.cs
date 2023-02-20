@@ -1,6 +1,6 @@
 ﻿namespace TheFifthHomework
 {
-    internal interface IFlyingRobot:IRobot
+    internal interface IFlyingRobot : IRobot
     {
     }
 }

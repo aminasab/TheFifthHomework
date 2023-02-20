@@ -1,8 +1,8 @@
 ﻿namespace TheFifthHomework
 {
-    internal class Quadcopter:IFlyingRobot,IChargeable
+    internal class Quadcopter : IFlyingRobot, IChargeable
     {
-        List<string> components = new List <string>{"rotor1","rotor2","rotor3","rotor4" };
+        List<string> components = new List<string> { "rotor1", "rotor2", "rotor3", "rotor4" };
 
         public void Charge()
         {
@@ -11,7 +11,7 @@
             Console.WriteLine("Charged!");
         }
 
-        public List <string> GetComponents()
+        public List<string> GetComponents()
         {
             return components;
         }
