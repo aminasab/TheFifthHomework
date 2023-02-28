@@ -11,14 +11,8 @@
             Console.WriteLine("Charged!");
         }
 
-        public List<string> GetComponents()
-        {
-            return components;
-        }
+        public List<string> GetComponents() => components;
 
-        public string GetInfo()
-        {
-            throw new NotImplementedException();
-        }
+        public string GetInfo() => throw new NotImplementedException();
     }
 }
